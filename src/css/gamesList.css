@@ -1,0 +1,66 @@
+.listProducts {
+	width: 77%;
+	margin: auto;
+	margin-top: 1em;
+}
+
+.listProducts ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	place-items: center;
+	gap: 20px;
+	list-style-type: none;
+	margin-bottom: 2em;
+}
+
+.listProducts li {
+	height: 400px;
+	width: 240px;
+	background-color: rgb(6 35 83);
+	color: white;
+	text-align: center;
+}
+
+.listProducts li img {
+	height: 250px;
+	width: 100%;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+.listProducts li:hover img {
+	opacity: 0.6;
+}
+
+.listProducts li p {
+	margin: 5px;
+	font-size: 0.9em;
+	color: rgba(255, 255, 255, 0.712);
+}
+
+.listProducts li h4 {
+	font-size: 1.1em;
+}
+
+.listProducts li p span {
+	margin: 10px;
+	font-size: 1.3em;
+	color: white;
+}
+
+.addCard {
+	margin-bottom: 15px;
+	border-radius: 9px;
+	color: white;
+	color: rgb(16, 171, 40);
+	border: none;
+	cursor: pointer;
+	margin-top: 6px;
+	font-size: 1.9em;
+	transition-property: font-size;
+	transition-duration: 0.4s;
+}
+
+.listProducts ul li:hover .addCard {
+	font-size: 2.5em;
+}

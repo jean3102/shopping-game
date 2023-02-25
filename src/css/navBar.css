@@ -1,0 +1,24 @@
+.header nav {
+	display: grid;
+	background-color: rgb(6 35 83);
+	padding: 0.8em;
+	height: 30px;
+}
+
+.header ul {
+	list-style-type: none;
+}
+
+.header ul li:nth-child(2) {
+	float: right;
+}
+
+.header li:nth-child(2) span {
+	font-size: 1.2em;
+}
+
+.header li {
+	color: #fff;
+	float: left;
+	font-size: 1.3em;
+}

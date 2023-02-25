@@ -1,0 +1,79 @@
+{
+	"games": [
+		{
+			"id": 1,
+			"img": "resident_evil",
+			"name": "Resident Evil 4",
+			"lastPrice": 90,
+			"currentPrices": 70,
+			"stock": 15
+		},
+		{
+			"id": 2,
+			"img": "dead-space",
+			"name": "Dead Space Remake",
+			"lastPrice": 42.27,
+			"currentPrices": 38.04,
+			"stock": 7
+		},
+		{
+			"id": 3,
+			"img": "RedDeadRedemption",
+			"name": "Red Dead Redemption 2",
+			"lastPrice": 0,
+			"currentPrices": 50,
+			"stock": 9
+		},
+		{
+			"id": 4,
+			"img": "callistoProtocol",
+			"name": "The Callisto Protocol",
+			"lastPrice": 0,
+			"currentPrices": 44.5,
+			"stock": 4
+		},
+		{
+			"id": 5,
+			"img": "hogwartsLegacy",
+			"name": "Hogwarts Legacy",
+			"lastPrice": 0,
+			"currentPrices": 60,
+			"stock": 3
+		},
+		{
+			"id": 6,
+			"img": "darkSouls",
+			"name": "Dark Souls",
+			"lastPrice": 42,
+			"currentPrices": 35,
+			"stock": 6
+		}
+		,
+		{
+			"id": 7,
+			"img": "godOfWar",
+			"name": "God of War",
+			"lastPrice": 36,
+			"currentPrices": 25.60,
+			"stock": 7
+		}
+		,
+		{
+			"id": 8,
+			"img": "monsterHunter",
+			"name": "Monster Hunter",
+			"lastPrice": 22,
+			"currentPrices": 15.5,
+			"stock": 22
+		}
+		,
+		{
+			"id": 9,
+			"img": "cyberpunk",
+			"name": "Cyberpunk 2077",
+			"lastPrice": 0,
+			"currentPrices": 34,
+			"stock": 7
+		}
+	]
+}

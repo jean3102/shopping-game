@@ -1,0 +1,43 @@
+.count {
+	position: relative;
+	font-size: 0.6em;
+	color: red;
+	float: right;
+	margin-left: -7px;
+	background-color: #e43d3d;
+	padding: 2px;
+	width: 15px;
+	margin-top: -5px;
+	text-align: center;
+	border-radius: 50px;
+	color: white;
+}
+
+.bodyCardList {
+	transition-property: all;
+	transition-duration: 1s;
+	background-color: white;
+	min-width: 310px;
+	position: relative;
+	float: right;
+	margin-top: 44px;
+	z-index: 1;
+	display: none;
+	margin-right: -42px;
+}
+
+.bodyCardList ul {
+	display: grid;
+}
+
+.bodyCardList ul li {
+	color: black;
+	font-size: 0.7em;
+}
+.cart .cartIcon {
+	float: right;
+}
+
+.viewCart {
+	cursor: pointer;
+}

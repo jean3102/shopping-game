@@ -41,7 +41,7 @@ export default function CartList() {
 				</ul>
 				<section>
 					<button>Finish Order</button>
-					<button onClick={() => cart?.clearCart}>Clear Cart</button>
+					<button onClick={() => cart?.clearCart()}>Clear Cart</button>
 				</section>
 			</div>
 		</>

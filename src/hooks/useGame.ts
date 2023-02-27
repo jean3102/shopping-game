@@ -14,7 +14,8 @@ export default function useGame() {
 	}, []);
 
 	const addCart = (game: IGames) => {
-		if (validationStock(game.stock)) return warning(game.name," Without Stock");
+		if (validationStock(game.stock))
+			return warning(game.name, " Without Stock");
 		removeGameList(game.id);
 
 		if (cartList.some((item) => item.id === game.id)) {
@@ -46,9 +47,11 @@ export default function useGame() {
 		setGames(newGames);
 	};
 
+
 	const clearCart = () => {
-		console.log('list',cartList)
-	}
+		setCartList([]);
+		setGames(callGames());
+	};
 
 	const validationStock = (stock: number) => {
 		return stock <= 0;
@@ -60,5 +63,5 @@ export default function useGame() {
 		);
 		setGames(newGames);
 	};
-	return { games, cartList, addCart, removeCart,clearCart };
+	return { games, cartList, addCart, removeCart, clearCart };
 }

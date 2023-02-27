@@ -11,13 +11,14 @@ interface IGameContext {
 	cartList: ICartGames[];
 	addCart: (game: IGames) => void;
 	removeCart: (game: ICartGames) => void;
+	clearCart: () => void;
 }
 
 export const GameContext = createContext<IGameContext | null>(null);
 export default function cartProvider({ children }: GameProviderProps) {
-	const { games, cartList, addCart, removeCart } = useGame();
+	const { games, cartList, addCart, removeCart,clearCart } = useGame();
 	return (
-		<GameContext.Provider value={{ games, cartList, addCart, removeCart }}>
+		<GameContext.Provider value={{ games, cartList, addCart, removeCart, clearCart }}>
 			{children}
 		</GameContext.Provider>
 	);

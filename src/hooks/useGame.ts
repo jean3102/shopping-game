@@ -46,6 +46,10 @@ export default function useGame() {
 		setGames(newGames);
 	};
 
+	const clearCart = () => {
+		console.log('list',cartList)
+	}
+
 	const validationStock = (stock: number) => {
 		return stock <= 0;
 	};
@@ -56,5 +60,5 @@ export default function useGame() {
 		);
 		setGames(newGames);
 	};
-	return { games, cartList, addCart, removeCart };
+	return { games, cartList, addCart, removeCart,clearCart };
 }

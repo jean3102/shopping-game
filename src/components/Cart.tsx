@@ -15,7 +15,10 @@ export default function Cart() {
 		bubbleCart();
 	}, [cart?.cartList]);
 
-	const viewCart = () => (cartRef.current.style.display = "block");
+	const viewCart = () => {
+		if (cartRef.current.style.display === "block") return hideCart();
+		cartRef.current.style.display = "block";
+	};
 	const hideCart = () => (cartRef.current.style.display = "none");
 
 	const bubbleCart = () => {

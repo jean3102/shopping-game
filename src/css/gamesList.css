@@ -49,18 +49,19 @@
 }
 
 .addCard {
-	margin-bottom: 15px;
-	border-radius: 9px;
+	margin: 1.5em;
+	padding: 0.6em;
+	border-radius: 5px;
+	background-color: green;
 	color: white;
-	color: rgb(16, 171, 40);
 	border: none;
 	cursor: pointer;
-	margin-top: 6px;
-	font-size: 1.9em;
-	transition-property: font-size;
-	transition-duration: 0.4s;
+	font-size: 0.9em;
+
 }
 
 .listProducts ul li:hover .addCard {
-	font-size: 2.5em;
+	 background-color: rgba(0, 128, 0, 0.39);
+	 color: white;
+
 }

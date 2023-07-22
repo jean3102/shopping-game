@@ -19,18 +19,18 @@ export default function GamesList() {
 						<p>
 							<span> Price: ${game.currentPrices}</span>
 							{game.stock === 0 ? (
-								<span style={{color:'red'}}> Stock: {game.stock}</span>
+								<span style={{ color: "red" }}> Stock: {game.stock}</span>
 							) : (
 								<span> Stock: {game.stock}</span>
 							)}
 						</p>
 						<section>
-							<span
+							<button
+								className="addCard"
 								onClick={() => games.addCart(game)}
-								className="addCard material-symbols-outlined"
 							>
-								add_shopping_cart
-							</span>
+								Add to cart
+							</button>
 						</section>
 					</li>
 				))}

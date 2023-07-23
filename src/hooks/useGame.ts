@@ -47,10 +47,13 @@ export default function useGame() {
 		setGames(newGames);
 	};
 
-
 	const clearCart = () => {
 		setCartList([]);
 		setGames(callGames());
+	};
+
+	const purchase = () => {
+		setCartList([]);
 	};
 
 	const validationStock = (stock: number) => {
@@ -63,5 +66,5 @@ export default function useGame() {
 		);
 		setGames(newGames);
 	};
-	return { games, cartList, addCart, removeCart, clearCart };
+	return { games, cartList, addCart, removeCart, clearCart, purchase };
 }

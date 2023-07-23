@@ -67,18 +67,7 @@
 	border-bottom: 1px solid rgba(128, 128, 128, 0.237);
 }
 
-.cartList li section span:first-of-type {
-	color: white;
+.cartList li section svg:first-of-type, .cartList li section svg:last-child {
 	cursor: pointer;
-	background-color: red;
-	border-radius: 10px;
-	padding: 1px;
-}
 
-.cartList li section span:last-child {
-	border-radius: 10px;
-	color: white;
-	background-color: green;
-	padding: 1px;
-	cursor: pointer;
 }

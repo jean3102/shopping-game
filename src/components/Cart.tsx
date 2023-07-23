@@ -3,7 +3,7 @@ import CartList from "./CartList";
 import "../css/cart.css";
 import { useContext, useEffect, useRef, useState } from "react";
 import { GameContext } from "../context/CartProvider";
-
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 export default function Cart() {
 	const cartRef = useRef<HTMLDivElement>(null!);
 	const cart = useContext(GameContext);
@@ -31,13 +31,10 @@ export default function Cart() {
 			<div className="cart">
 				{showCart && quantity > 0 ? (
 					<>
-						<span
-							onClick={viewCart}
-							className="viewCart cartIcon material-symbols-outlined"
-						>
-							shopping_cart
+				
 							<p className="count">{quantity > 9 ? "9+" : quantity}</p>
-						</span>
+							<AddShoppingCartIcon onClick={viewCart} className="viewCart cartIcon"/>
+						
 
 						<div
 							className="bodyCardList"

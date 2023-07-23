@@ -1,6 +1,8 @@
-*{
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important
+* {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
 }
+
 .header nav {
 	display: grid;
 	background-color: rgb(6 35 83);

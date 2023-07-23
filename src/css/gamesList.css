@@ -14,9 +14,9 @@
 }
 
 .listProducts li {
-	height: 400px;
+	height: 420px;
 	width: 250px;
-	background-color: rgb(6 35 83);
+	background-color: rgba(6, 35, 83, 0.437);
 	color: white;
 	text-align: center;
 }
@@ -49,7 +49,7 @@
 }
 
 .addCard {
-	margin: 1.5em;
+	margin: 0.5em;
 	padding: 0.6em;
 	border-radius: 5px;
 	background-color: green;
@@ -57,11 +57,5 @@
 	border: none;
 	cursor: pointer;
 	font-size: 0.9em;
-
-}
-
-.listProducts ul li:hover .addCard {
-	 background-color: rgba(0, 128, 0, 0.39);
-	 color: white;
 
 }

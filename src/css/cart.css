@@ -1,12 +1,12 @@
 .count {
 	position: relative;
-	font-size: 0.6em;
+	font-size: 0.5em;
 	color: red;
 	float: right;
 	margin-left: -7px;
 	background-color: #e43d3d;
 	padding: 2px;
-	width: 15px;
+	width: 20px;
 	margin-top: -5px;
 	text-align: center;
 	border-radius: 50px;
@@ -17,7 +17,7 @@
 	transition-property: all;
 	transition-duration: 1s;
 	background-color: white;
-	min-width: 310px;
+	min-width: 330px;
 	position: relative;
 	float: right;
 	margin-top: 44px;
@@ -36,6 +36,7 @@
 }
 .cart .cartIcon {
 	float: right;
+	font-size: 1.5em;
 }
 
 .viewCart {

@@ -56,7 +56,7 @@ export default function CartList() {
 								showCancelButton: true,
 								confirmButtonColor: "#3085d6",
 								cancelButtonColor: "#d33",
-								confirmButtonText: "Yes, clear cart!",
+								confirmButtonText: "Yes, clear!",
 							}).then((result) => {
 								if (result.isConfirmed) {
 									cart?.clearCart();

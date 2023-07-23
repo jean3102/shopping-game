@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { GameContext } from "../context/CartProvider";
 import "../css/gamesList.css";
-const imagePath = `${window.location}/assets`;
+const imagePath = `${window.location}assets`;
 
 export default function GamesList() {
 	const games = useContext(GameContext);
